@@ -1,0 +1,20 @@
+public class SoalUAS4 {
+    public static void main(String[] args){
+        int n = 5;  // Tinggi nya = 5 baris
+        int i, j;   // Looping baris (0=1, 1=2, 2=3, 3=4, 4=5)
+        
+        for (i = 0; i < n; i++) {   //Jika i<n (5), maka akan terus mencetak
+            
+            // LOOP SPASI
+            for (j = 0 ; j < n - i - 2; j++) { 
+                System.out.print("");
+            }
+            // LOOP ANGKA 01234
+            for (j = 0; j <= i; j++) {
+                System.out.print(j);
+            }
+            
+            System.out.println();
+        }
+    }
+}
